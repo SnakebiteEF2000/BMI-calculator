@@ -1,0 +1,2 @@
+#include <iostream>
+double inputHight; double inputWeight;int main() { std::cin>>inputHight; std::cin>>inputWeight; std::cout << double(inputWeight / double((inputHight/100)*inputHight/100));return 0;}
